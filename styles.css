@@ -1,2 +1,29 @@
+body{
+	background-color:#92a8d1;
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	display:grid;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+}
 
-/* Your CSS Code here. */
+img{
+	border-radius:10px;
+	box-shadow:0px 0px 10px black;
+	border:2px solid black;
+	transition: box-shadow 0.3s ease;
+	
+}
+
+img:hover{
+	box-shadow: 0px 10px 80px black;
+	border:5px solid black;
+}
+
+
+
+
+
+
